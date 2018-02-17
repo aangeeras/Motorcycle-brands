@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 
-#define SIZE 2
+#define SIZE 2 // the number of brands for which data is entered
 struct Bikes
 {
  char brand[100];
@@ -12,7 +12,7 @@ struct Bikes
 int main()
 {
 
-    struct Bikes bike[100];
+    struct Bikes bike[100]; // an array of structre Bikes
     int index=0;
     while(index<SIZE)
         {
